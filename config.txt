@@ -9,7 +9,7 @@
 "verbose_level" : 3,
 "h_print_time" : 60,
 "output_file" : "",
-"httpd_port" : 0,
+"httpd_port" : 8011,
 "prefer_ipv4" : true,
 
 "pool_address" : "POOL",
