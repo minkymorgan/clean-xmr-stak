@@ -18,8 +18,9 @@ cd clean-xmr-stak
 nvidia-docker build -t clean-xmr-stak .
 
 # nvidia-docker run clean-xmr-stak POOL WALLET PASSWORD 
-nvidia-docker run -p 127.0.0.1:8011:8011 clean-xmr-stak pool.minexmr.com 4A2tCSUY17JJ1zVRLuYV9tU93orLA1SLEVzrdjLeMmUDSBt927LgRSTho66EdPH98F1GTPzuqFfRh52kBbz4xRzkGviiJSY x  
+nvidia-docker run -d -p 8011:8011 clean-xmr-stak pool.minexmr.com:3333 4A2tCSUY17JJ1zVRLuYV9tU93orLA1SLEVzrdjLeMmUDSBt927LgRSTho66EdPH98F1GTPzuqFfRh52kBbz4xRzkGviiJSY x
 
+## note you may need to expose port 8011 so you can connect to it over newtorks
 ```
 # Donate
 XMR: `4A2tCSUY17JJ1zVRLuYV9tU93orLA1SLEVzrdjLeMmUDSBt927LgRSTho66EdPH98F1GTPzuqFfRh52kBbz4xRzkGviiJSY`

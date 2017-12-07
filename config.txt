@@ -10,8 +10,17 @@
 "h_print_time" : 60,
 "output_file" : "",
 "httpd_port" : 8011,
+"http_login" : "",
+"http_pass" : "",
 "prefer_ipv4" : true,
+"daemon_mode" : false,
+"flush_stdout" : false,
+"aes_override" : null,
 
-"pool_address" : "POOL",
-"wallet_address" : "WALLET",
-"pool_password" : "PASSWORD",
+"currency" : "monero",
+"print_motd" : true,
+"pool_list" :
+[
+{"pool_address" : "POOL", "wallet_address" : "WALLET", "pool_password" : "PASSWORD", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 }
+]
+
